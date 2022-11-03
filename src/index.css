@@ -1,13 +1,38 @@
-body {
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-cover {
+  margin: 0 45%;
+  border-radius: 20px;
+  height: 40px;
+  padding: 40px;
+  background: linear-gradient(to top,#f2709c,#ff9472);
+}
+.new-to-do-wrapper {
+  background: linear-gradient(to right,#FFAFBD,#C9FFBF);
+}
+
+.icon a {
+  color: brown;
+}
+
+.edit {
+  background: linear-gradient(to right, #C9FFBF,#FFAFBD) !important;
+  color: #000 !important;
 }
